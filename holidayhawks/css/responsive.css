@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1366px){
+	.experiential-col-1x {
+	    float: left;
+	    width: 50%;
+	    padding: 0;
+	    position: relative;
+	    max-height: 622px;
+	    overflow: hidden;
+	}
+
+}

@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+Redirect 301 /blogs/9   http://holidayhawks.in/blog
+Redirect 301 /blog/detail/19 http://holidayhawks.in/blog/Neelakurinji
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
